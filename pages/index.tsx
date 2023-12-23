@@ -1,20 +1,20 @@
-import ButtonLink from 'components/atoms/Button/ButtonLink'
-import LineDivider from 'components/atoms/LineDivider'
-import FeatureCard from 'components/molecules/Card/FeatureCard'
-import PageSentence from 'components/molecules/PageSentence'
-import PricingCard from 'components/molecules/Card/PricingCard'
-import ProjectCard from 'components/molecules/Card/ProjectCard'
-import SectionSentence from 'components/molecules/SectionSentence'
-import LogoList from 'components/organisms/LogoList'
-import TestimonialList from 'components/organisms/TestimonialList'
-import PageTemplate from 'components/templates/PageTemplate'
-import Image from 'next/image'
-import React from 'react'
-import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
+import ButtonLink from 'components/atoms/Button/ButtonLink';
+import LineDivider from 'components/atoms/LineDivider';
+import FeatureCard from 'components/molecules/Card/FeatureCard';
+import PageSentence from 'components/molecules/PageSentence';
+import PricingCard from 'components/molecules/Card/PricingCard';
+import ProjectCard from 'components/molecules/Card/ProjectCard';
+import SectionSentence from 'components/molecules/SectionSentence';
+import LogoList from 'components/organisms/LogoList';
+import TestimonialList from 'components/organisms/TestimonialList';
+import PageTemplate from 'components/templates/PageTemplate';
+import Image from 'next/image';
+import React from 'react';
+import { FiFigma, FiCode, FiBox } from 'react-icons/fi';
 const Home = () => {
   return (
     <>
-      <PageTemplate title="Home - Collosal">
+      <PageTemplate title="Home - Pearlink">
         {/* Banner Section */}
         <section
           className="flex flex-col gap-10 items-center"
@@ -194,7 +194,10 @@ const Home = () => {
         </section>
         {/* Testimonial */}
         <section className="flex flex-col gap-16 items-center">
-          <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12" data-aos="zoom-in-up">
+          <div
+            className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
+            data-aos="zoom-in-up"
+          >
             <SectionSentence
               title="What do our clients say that we never let down?"
               badge="TESTIMONIAL"
@@ -206,7 +209,7 @@ const Home = () => {
         </section>
       </PageTemplate>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -1,16 +1,16 @@
-import LazyCard from 'components/atoms/LazyCard'
-import LineDivider from 'components/atoms/LineDivider'
-import Text from 'components/atoms/Text'
-import PageSentence from 'components/molecules/PageSentence'
-import ProjectCard from 'components/molecules/Card/ProjectCard'
-import PageTemplate from 'components/templates/PageTemplate'
-import React from 'react'
-import randomString from 'utils/randomString'
+import LazyCard from 'components/atoms/LazyCard';
+import LineDivider from 'components/atoms/LineDivider';
+import Text from 'components/atoms/Text';
+import PageSentence from 'components/molecules/PageSentence';
+import ProjectCard from 'components/molecules/Card/ProjectCard';
+import PageTemplate from 'components/templates/PageTemplate';
+import React from 'react';
+import randomString from 'utils/randomString';
 
 const ProjectDetail = () => {
   interface Project {
-    title: string
-    description: string
+    title: string;
+    description: string;
   }
   const projectList: Project[] = [
     {
@@ -21,9 +21,9 @@ const ProjectDetail = () => {
       title: 'Realtime Chat App UI Design',
       description: 'A UI design for realtime chat app',
     },
-  ]
+  ];
   return (
-    <PageTemplate title='Project Detail - Collosal'>
+    <PageTemplate title="Project Detail - Pear Link">
       <section className="grid place-items-center" data-aos="zoom-in-up">
         <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12">
           <PageSentence
@@ -37,7 +37,10 @@ const ProjectDetail = () => {
         <aside data-aos="fade-up-right">
           <LazyCard bottomSquareSize="big" height={400} />
         </aside>
-        <aside className="grid gap-12 place-content-center" data-aos="fade-up-left">
+        <aside
+          className="grid gap-12 place-content-center"
+          data-aos="fade-up-left"
+        >
           <Text
             textStyle="SectionParagraph"
             value="Something has always existed. According to physics, there can never be true physical nothingness—though there can be times when existence resembles nothing."
@@ -63,7 +66,10 @@ const ProjectDetail = () => {
       </section>
       <LineDivider />
       <section className="grid gap-16 place-items-center">
-        <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12" data-aos="zoom-in-up">
+        <div
+          className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
+          data-aos="zoom-in-up"
+        >
           <PageSentence
             badge="PROJECT DETAIL"
             title="The Desktop App Landing Page"
@@ -82,12 +88,12 @@ const ProjectDetail = () => {
                   description={project.description}
                 />
               </div>
-            )
+            );
           })}
         </div>
       </section>
     </PageTemplate>
-  )
-}
+  );
+};
 
-export default ProjectDetail
+export default ProjectDetail;

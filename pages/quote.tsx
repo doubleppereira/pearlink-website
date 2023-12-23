@@ -1,18 +1,21 @@
-import Button from 'components/atoms/Button'
-import ButtonLink from 'components/atoms/Button/ButtonLink'
-import InputGroup from 'components/molecules/FormGroup/InputGroup'
-import SelectGroup from 'components/molecules/FormGroup/SelectGroup'
-import TextAreaGroup from 'components/molecules/FormGroup/TextAreaGroup'
-import PageSentence from 'components/molecules/PageSentence'
-import PageTemplate from 'components/templates/PageTemplate'
-import React from 'react'
+import Button from 'components/atoms/Button';
+import ButtonLink from 'components/atoms/Button/ButtonLink';
+import InputGroup from 'components/molecules/FormGroup/InputGroup';
+import SelectGroup from 'components/molecules/FormGroup/SelectGroup';
+import TextAreaGroup from 'components/molecules/FormGroup/TextAreaGroup';
+import PageSentence from 'components/molecules/PageSentence';
+import PageTemplate from 'components/templates/PageTemplate';
+import React from 'react';
 
 const Quote = () => {
   return (
     <>
-      <PageTemplate title='Send Quote - Collosal'>
+      <PageTemplate title="Send Quote - Pear Link">
         <section className="grid grid-cols-1 place-items-center gap-5 lg:grid-cols-2">
-          <aside className="w-full sm:w-10/12 md:w-8/12 grid grid-cols-1 place-items-center gap-12 lg:w-full lg:place-items-start" data-aos="fade-down-right">
+          <aside
+            className="w-full sm:w-10/12 md:w-8/12 grid grid-cols-1 place-items-center gap-12 lg:w-full lg:place-items-start"
+            data-aos="fade-down-right"
+          >
             <div className="text-center lg:text-left">
               <PageSentence
                 title="Tell us about your problem and how we can help"
@@ -29,7 +32,10 @@ const Quote = () => {
               />
             </div>
           </aside>
-          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full lg:flex lg:justify-end" data-aos="fade-up-left">
+          <aside
+            className="w-full sm:w-10/12 md:w-8/12 lg:w-full lg:flex lg:justify-end"
+            data-aos="fade-up-left"
+          >
             <div className="grid grid-cols-1 gap-7 p-6 md:p-9 bg-light rounded-md lg:w-10/12 ">
               <div className="grid grid-cols-2 gap-4">
                 <InputGroup label="Name" />
@@ -53,7 +59,7 @@ const Quote = () => {
         </section>
       </PageTemplate>
     </>
-  )
-}
+  );
+};
 
-export default Quote
+export default Quote;

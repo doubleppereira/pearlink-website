@@ -33,7 +33,6 @@
     "typescript": "4.6.4"
   },
   "main": "index.js",
-  "repository": "git@github.com:iceboy1406/collosal.git",
   "author": "Pedro Pereira <cyberafael@msn.com>",
   "license": "MIT"
 }
