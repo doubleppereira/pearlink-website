@@ -1,10 +1,10 @@
-import useMobileDeviceDetection from 'hooks/useMobileDetection'
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+import useMobileDeviceDetection from 'hooks/useMobileDetection';
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
 const NavBrand = () => {
-  const isMobile = useMobileDeviceDetection()
+  const isMobile = useMobileDeviceDetection();
   return (
     <>
       <div
@@ -14,12 +14,18 @@ const NavBrand = () => {
       >
         <Link href={'/'} passHref>
           <div className="w-fit h-fit">
-            <Image src={'/images/brand.svg'} width='135px' height={30} alt='company brand' loading='lazy' />
+            <Image
+              src={'/images/brand.svg'}
+              width="135px"
+              height={40}
+              alt="company brand"
+              loading="lazy"
+            />
           </div>
         </Link>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default NavBrand
+export default NavBrand;
