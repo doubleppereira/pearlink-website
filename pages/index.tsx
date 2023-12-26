@@ -116,7 +116,7 @@ const Home = () => {
         </section>
         <LineDivider />
         {/* Our Projects */}
-        <section className="flex flex-col gap-16 items-center">
+        {/* <section className="flex flex-col gap-16 items-center">
           <div
             className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
             data-aos="zoom-in-up"
@@ -141,9 +141,9 @@ const Home = () => {
               />
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Prices */}
-        <section className="flex flex-col gap-16 items-center">
+        {/* <section className="flex flex-col gap-16 items-center">
           <div
             className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
             data-aos="zoom-in-up"
@@ -191,9 +191,9 @@ const Home = () => {
               />
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Testimonial */}
-        <section className="flex flex-col gap-16 items-center">
+        {/* <section className="flex flex-col gap-16 items-center">
           <div
             className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
             data-aos="zoom-in-up"
@@ -206,7 +206,7 @@ const Home = () => {
           <div className="w-full" data-aos="fade-up">
             <TestimonialList />
           </div>
-        </section>
+        </section> */}
       </PageTemplate>
     </>
   );

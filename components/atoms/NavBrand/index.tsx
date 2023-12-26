@@ -16,8 +16,8 @@ const NavBrand = () => {
           <div className="w-fit h-fit">
             <Image
               src={'/images/brand.svg'}
-              width="135px"
-              height={40}
+              width="100px"
+              height={56}
               alt="company brand"
               loading="lazy"
             />

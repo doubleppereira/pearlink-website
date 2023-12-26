@@ -1,35 +1,35 @@
-import React, { useEffect, useState } from 'react'
-import NavBrand from 'components/atoms/NavBrand'
-import NavLink from 'components/atoms/NavLink'
-import ButtonLink from 'components/atoms/Button/ButtonLink'
-import Container from 'components/templates/Container'
-import { FiMenu, FiX } from 'react-icons/fi'
-import UAParser from 'ua-parser-js'
-import useMobileDeviceDetection from 'hooks/useMobileDetection'
-import useGetBrowserName from 'hooks/useGetBrowserName'
+import React, { useEffect, useState } from 'react';
+import NavBrand from 'components/atoms/NavBrand';
+import NavLink from 'components/atoms/NavLink';
+import ButtonLink from 'components/atoms/Button/ButtonLink';
+import Container from 'components/templates/Container';
+import { FiMenu, FiX } from 'react-icons/fi';
+import UAParser from 'ua-parser-js';
+import useMobileDeviceDetection from 'hooks/useMobileDetection';
+import useGetBrowserName from 'hooks/useGetBrowserName';
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false)
-  const [isScrolled, setIsScrolled] = useState<boolean>(false)
-  const browserName = useGetBrowserName()
-  const isMobile = useMobileDeviceDetection()
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [isScrolled, setIsScrolled] = useState<boolean>(false);
+  const browserName = useGetBrowserName();
+  const isMobile = useMobileDeviceDetection();
   useEffect(() => {
     window.addEventListener('scroll', () => {
       if (window.scrollY > 150) {
-        setIsScrolled(true)
+        setIsScrolled(true);
       } else {
-        setIsScrolled(false)
+        setIsScrolled(false);
       }
-    })
-  }, [])
+    });
+  }, []);
   useEffect(() => {
     if (isOpen) {
-      document.body.classList.add('h-screen')
-      document.body.classList.add('overflow-y-hidden')
+      document.body.classList.add('h-screen');
+      document.body.classList.add('overflow-y-hidden');
     } else {
-      document.body.classList.remove('h-screen')
-      document.body.classList.remove('overflow-y-hidden')
+      document.body.classList.remove('h-screen');
+      document.body.classList.remove('overflow-y-hidden');
     }
-  }, [isOpen])
+  }, [isOpen]);
   return (
     <>
       <nav
@@ -69,7 +69,7 @@ const NavBar = () => {
                   value="How We Work"
                   canActive={true}
                 />
-                <NavLink href="/project" value="Project" canActive={true} />
+                {/* <NavLink href="/project" value="Project" canActive={true} /> */}
                 <NavLink href="/about" value="About" canActive={true} />
               </div>
               <div
@@ -88,7 +88,7 @@ const NavBar = () => {
         </Container>
       </nav>
     </>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
