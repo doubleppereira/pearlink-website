@@ -7,6 +7,11 @@ const Document = () => {
       <Head>
         <meta key="og:title" property="og:title" content="Pear Link Systems" />
         <meta
+          key="og:description"
+          property="og:description"
+          content="An company profile of Pear Link Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance"
+        />
+        <meta
           name="description"
           content="An company profile of Pear Link Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance"
         />
@@ -19,6 +24,23 @@ const Document = () => {
           name="tags"
           content="web,app,ui,maintenance,company,pearlink,profile"
         />
+        <meta property="og:url" content="https://pearlink.pt/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Pear Link Systems" />
+        <meta
+          property="og:description"
+          content="An company profile of Pear Link Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="pearlink.pt" />
+        <meta property="twitter:url" content="https://pearlink.pt/" />
+        <meta name="twitter:title" content="Pear Link Systems" />
+        <meta
+          name="twitter:description"
+          content="An company profile of Pear Link Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance"
+        />
+
         <link
           rel="shortcut icon"
           href="/images/favicon.svg"
