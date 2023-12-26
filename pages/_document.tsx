@@ -5,9 +5,14 @@ const Document = () => {
   return (
     <Html lang="en">
       <Head>
+        <meta key="og:title" property="og:title" content="Pear Link Systems" />
         <meta
           name="description"
           content="An company profile of Pear Link Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance"
+        />
+        <meta
+          name="keywords"
+          content="web software,app,ui,maintenance,company,pearlink,profile"
         />
         <meta name="robots" content="index, follow" />
         <meta
