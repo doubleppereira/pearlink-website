@@ -1,5 +1,5 @@
 import { FaReact, FaGithub, FaGoogle, FaVuejs } from 'react-icons/fa';
-import { SiTypescript } from 'react-icons/si';
+import { SiTypescript, SiFlutter } from 'react-icons/si';
 import { DiNodejs } from 'react-icons/di';
 import Text from 'components/atoms/Text';
 import Image from 'next/image';
@@ -11,22 +11,19 @@ const LogoList = () => {
       <Text value="TOOLS" textStyle="SectionBadge" />
       <section className="py-8 m-0 flex flex-row flex-wrap place-items-center justify-around gap-4 md:gap-0 border-y border-borderLight">
         <div className="">
-          <FaGithub fontSize={60} className="text-gray-400" />
-        </div>
-        <div className="">
           <FaReact fontSize={60} className="text-gray-400" />
-          {/* <Image
-            src={'/images/forbes-logo.svg'}
-            width={120}
-            height="36"
-            alt="forbes logo"
-          /> */}
-        </div>
-        <div className="">
-          <FaGoogle fontSize={60} className="text-gray-400" />
         </div>
         <div className="">
           <FaVuejs fontSize={60} className="text-gray-400" />
+        </div>
+        <div className="">
+          <SiFlutter fontSize={60} className="text-gray-400" />
+        </div>
+        <div className="">
+          <FaGithub fontSize={60} className="text-gray-400" />
+        </div>
+        <div className="">
+          <FaGoogle fontSize={60} className="text-gray-400" />
         </div>
         <div className="">
           <SiTypescript fontSize={60} className="text-gray-400" />
