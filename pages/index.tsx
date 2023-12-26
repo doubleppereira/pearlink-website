@@ -95,7 +95,7 @@ const Home = () => {
               />
               <ButtonLink
                 value="See Our Teams"
-                href="/teams"
+                href="/about"
                 size="small"
                 color="white"
                 style="light"
