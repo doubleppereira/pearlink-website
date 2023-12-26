@@ -11,6 +11,8 @@ import PageTemplate from 'components/templates/PageTemplate';
 import Image from 'next/image';
 import React from 'react';
 import { FiFigma, FiCode, FiBox } from 'react-icons/fi';
+import { SiHiveBlockchain, SiCardano } from 'react-icons/si';
+import { FaEthereum, FaBitcoin } from 'react-icons/fa';
 const Home = () => {
   return (
     <>
@@ -61,6 +63,25 @@ const Home = () => {
             />
           </div>
         </section>
+        {/* Blockchain */}
+        <section
+          className="flex flex-col gap-10 items-center"
+          data-aos="fade-up"
+        >
+          <div className="w-10/12 md:w-8/12 text-center">
+            <PageSentence
+              title="We Develop on blockchain."
+              description="We have the knownledge to work on web3 projects. We can develop dapps that can be used on any blockchain."
+              badge="WEB3"
+            />
+          </div>
+          <section className="py-8 m-0 flex flex-row flex-wrap place-items-center justify-around gap-4 border-y border-borderLight">
+            <SiHiveBlockchain fontSize={60} className="text-gray-400" />
+            <FaEthereum fontSize={60} className="text-gray-400" />
+            <FaBitcoin fontSize={60} className="text-gray-400" />
+            <SiCardano fontSize={60} className="text-gray-400" />
+          </section>
+        </section>
         {/* Logo List */}
         <LogoList />
         {/* How We Work */}
@@ -89,8 +110,8 @@ const Home = () => {
           <aside className="text-center sm:w-10/12 lg:text-left lg:w-full">
             <div className="space-y-12" data-aos="fade-right">
               <SectionSentence
-                title="We're a team of designers, engineers and analysts"
-                paragraph="Our team consists of many creative people. We are committed to maintaining quality work as well as speed. These creative people work together to create maximum work results."
+                title="We're a team of engineers and analysts"
+                paragraph="Our team consists of many creative people. We are specialized on developing awesome applications with prime UX/UI. We are committed to maintaining quality work as well as speed. These creative people work together to create maximum work results."
                 badge="OUR TEAM"
               />
               <ButtonLink

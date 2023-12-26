@@ -12,7 +12,7 @@ const Document = () => {
         />
         <meta
           name="keywords"
-          content="web software,app,ui,maintenance,company,pearlink,profile"
+          content="web3,blockchain,web software,app,ui,maintenance,company,pearlink,profile"
         />
         <meta name="robots" content="index, follow" />
         <meta
