@@ -32,6 +32,11 @@ const Document = () => {
           content="An company profile of Pear Link Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance"
         />
 
+        <meta property="og:image" content="<generated>" />
+        <meta property="og:image:type" content="<generated>" />
+        <meta property="og:image:width" content="<generated>" />
+        <meta property="og:image:height" content="<generated>" />
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="pearlink.pt" />
         <meta property="twitter:url" content="https://pearlink.pt/" />
@@ -40,6 +45,10 @@ const Document = () => {
           name="twitter:description"
           content="An company profile of Pear Link Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance"
         />
+        <meta name="twitter:image" content="<generated>" />
+        <meta name="twitter:image:type" content="<generated>" />
+        <meta name="twitter:image:width" content="<generated>" />
+        <meta name="twitter:image:height" content="<generated>" />
 
         <link
           rel="shortcut icon"
