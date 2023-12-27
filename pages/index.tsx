@@ -8,7 +8,7 @@ import SectionSentence from 'components/molecules/SectionSentence';
 import LogoList from 'components/organisms/LogoList';
 import TestimonialList from 'components/organisms/TestimonialList';
 import PageTemplate from 'components/templates/PageTemplate';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 import { FiFigma, FiCode, FiBox } from 'react-icons/fi';
 import { SiHiveBlockchain, SiCardano } from 'react-icons/si';

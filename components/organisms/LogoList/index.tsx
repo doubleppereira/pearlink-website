@@ -2,7 +2,7 @@ import { FaReact, FaGithub, FaGoogle, FaVuejs } from 'react-icons/fa';
 import { SiTypescript, SiFlutter } from 'react-icons/si';
 import { DiNodejs } from 'react-icons/di';
 import Text from 'components/atoms/Text';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import React from 'react';
 
 const LogoList = () => {
