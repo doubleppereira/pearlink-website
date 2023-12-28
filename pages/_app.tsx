@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         openGraph={{
           title: 'Pear Link Systems',
           description:
-            'An company profile of Pear Link Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance',
+            'Pear Link Systems its company that excels in Application Development (Mobile, Web and Desktop), UI UX Design and Software Architectures',
           images: [
             {
               url: 'https://pearlink.pt/images/opengraph-image.png',

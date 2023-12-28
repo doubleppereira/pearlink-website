@@ -8,7 +8,7 @@ import SectionSentence from 'components/molecules/SectionSentence';
 import LogoList from 'components/organisms/LogoList';
 import TestimonialList from 'components/organisms/TestimonialList';
 import PageTemplate from 'components/templates/PageTemplate';
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 import React from 'react';
 import { FiFigma, FiCode, FiBox } from 'react-icons/fi';
 import { SiHiveBlockchain, SiCardano } from 'react-icons/si';
@@ -16,7 +16,7 @@ import { FaEthereum, FaBitcoin } from 'react-icons/fa';
 const Home = () => {
   return (
     <>
-      <PageTemplate title="Home - Pearlink">
+      <PageTemplate title="Pearlink">
         {/* Banner Section */}
         <section
           className="flex flex-col gap-10 items-center"

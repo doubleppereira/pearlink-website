@@ -9,11 +9,11 @@ const Document = () => {
         <meta
           key="og:description"
           property="og:description"
-          content="An company profile of Pear Link Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance"
+          content="Pear Link Systems its company that excels in Application Development (Mobile, Web and Desktop), UI UX Design and Software Architectures"
         />
         <meta
           name="description"
-          content="An company profile of Pear Link Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance"
+          content="Pear Link Systems its company that excels in Application Development (Mobile, Web and Desktop), UI UX Design and Software Architectures"
         />
         <meta
           name="keywords"
@@ -27,11 +27,7 @@ const Document = () => {
         <meta property="og:url" content="https://pearlink.pt/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Pear Link Systems" />
-        <meta
-          property="og:description"
-          content="An company profile of Pear Link Company. Its company that serve for Application Development (Mobile, Web and Desktop), UI UX Design and Maintenance"
-        />
-
+        <link rel="icon" href="/images/favicon.svg" />
         <link
           rel="shortcut icon"
           href="/images/favicon.svg"
