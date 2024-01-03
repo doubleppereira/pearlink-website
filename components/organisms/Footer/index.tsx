@@ -40,8 +40,8 @@ const Footer = () => {
                 <NavLink value="Send Quote" href="/quote" />
                 <NavLink value="Privacy Policy" href="/privacy-policy" />
                 <NavLink value="Term of Service" href="/term-of-service" />
-                <NavLink value="Jobs" href="/jobs" />
-                <NavLink value="Blogs" href="/blog" />
+                {/* <NavLink value="Jobs" href="/jobs" />
+                <NavLink value="Blogs" href="/blog" /> */}
               </div>
             </div>
             {/* <div className="space-y-5">
