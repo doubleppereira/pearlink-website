@@ -9,20 +9,20 @@ const Document = () => {
         <meta
           key="og:description"
           property="og:description"
-          content="Pear Link Systems its company that excels in Application Development (Mobile, Web and Desktop), UI UX Design and Software Architectures"
+          content="Pear Link Systems its company that excels in Application Development (Mobile, Web and Desktop), UI UX Design and Software Architectures. Experience in Blockchain and Web3, Mobile and Desktop Apps."
         />
         <meta
           name="description"
-          content="Pear Link Systems its company that excels in Application Development (Mobile, Web and Desktop), UI UX Design and Software Architectures"
+          content="Pear Link Systems its company that excels in Application Development (Mobile, Web and Desktop), UI UX Design and Software Architectures. Experience in Blockchain and Web3, Mobile and Desktop Apps."
         />
         <meta
           name="keywords"
-          content="web3,blockchain,web software,app,ui,maintenance,company,pearlink,profile"
+          content="web3,blockchain,web software,app,ui,maintenance,company,pearlink,profile,software,portugal"
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="tags"
-          content="web,app,ui,maintenance,company,pearlink,profile"
+          content="web3,blockchain,web software,app,ui,maintenance,company,pearlink,profile,software,portugal"
         />
         <meta property="og:url" content="https://pearlink.pt/" />
         <meta property="og:type" content="website" />
